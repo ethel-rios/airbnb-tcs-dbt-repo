@@ -4,8 +4,8 @@ deploy_dbt_airbnb:
     dev:
       type: snowflake
       account: eo66191.us-east-2.aws
-        user: dbt_user1
-        password: doe
+      user: dbt_user1
+      assword: doe
       role: DBT_DEVELOPER
       database: AIRBNB
       warehouse: DBT_WAREHOUSE
