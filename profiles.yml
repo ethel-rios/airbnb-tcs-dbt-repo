@@ -3,8 +3,7 @@ deploy_dbt_airbnb:
   outputs:
     dev:
       type: snowflake
-      account: 
-        eo66191.us-east-2.aws
+      account: eo66191.us-east-2.aws
         user: dbt_user1
         password: doe
       role: DBT_DEVELOPER
